@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+}
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  background: #333;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  outline: none;
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  color: #aaa;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+  top: 0.3rem;
+  font-size: 0.75rem;
+  color: #28a745;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  opacity: 0.8;
+}
+
+.toggle-text {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.toggle-text span {
+  color: #28a745;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.toggle-text span:hover {
+  text-decoration: underline;
+}
+
+.loding-text{
+  color:#fff;
+}
+
+.error-text{
+  color:red;
+}
+
+.success-text{
+  color:green;
+}

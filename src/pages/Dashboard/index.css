@@ -1,0 +1,27 @@
+.dashboard{
+  padding-top: 10px;
+  padding-left:100px;
+  padding-right: 100px;
+  background-color: black;
+  min-height:100vh;
+  color:#ffffff;
+}
+.btn{
+  height:46px;
+  width:150px;
+  border-radius: 6px;
+  color: #fff;
+  border:none;
+  background-color: transparent;
+  margin:5px;
+}
+.bg-green{
+  background-color: rgb(25, 138, 25);
+}
+.bg-red{
+  background-color: rgb(161, 41, 41);
+}
+.popup{
+  background-color: #fff;
+}
+

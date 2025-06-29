@@ -1,0 +1,10 @@
+.history-section{
+  border-radius: 8px;
+  border:1px solid white;
+  overflow: auto;
+}
+
+.transactions-container{
+    list-style-type: none;
+    padding-left: 0px;
+}
