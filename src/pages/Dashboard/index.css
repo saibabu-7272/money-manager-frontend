@@ -25,3 +25,9 @@
   background-color: #fff;
 }
 
+@media (max-width: 667px){
+  .dashboard{
+    padding-left:10px;
+    padding-right:10px;
+  }
+}
